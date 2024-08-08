@@ -1,0 +1,137 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Light gray background */
+}
+
+header {
+    background: #6c0958;
+    color: #dbdaeb;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+}
+
+nav {
+    background: #1da4d6;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #555;
+}
+
+section {
+    padding: 2rem 0;
+    background: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.skill-bar {
+    background: #e0e0e0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.skill-percentage {
+    height: 1rem;
+    border-radius: 0.5rem;
+}
+
+.skill.html .skill-percentage {
+    background: #8ba70d; /* Blue for HTML */
+}
+
+.skill.css .skill-percentage {
+    background: #2ecc71; /* Green for CSS */
+}
+
+.skill.javascript .skill-percentage {
+    background: #e74c3c; /* Red for JavaScript */
+}
+
+.skill.devops .skill-percentage {
+    background: #250360; /* Blue for DevOps */
+}
+
+.skill.networking .skill-percentage {
+    background: #79084e; /* Purple for Networking */
+}
+
+.skill.aws .skill-percentage {
+    background: #222c09; /* Dark green for AWS */
+}
+
+.skill.python .skill-percentage {
+    background: #4b8bbe; /* Blue for Python */
+}
+
+.skill.react .skill-percentage {
+    background: #61dafb; /* Cyan for React */
+}
+
+.skill.docker .skill-percentage {
+    background: #0db7ed; /* Blue for Docker */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
